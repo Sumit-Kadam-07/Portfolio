@@ -2,6 +2,17 @@ const Resume = () => {
   // Sample experience data
   const experiences = [
     {
+      title: "INTERNSHIP ON AI  ",
+      company: "MAKERS LAB-TECH MAHINDRA",
+      duration: " March 25- July 2025",
+      responsibilities: [
+        "Designed and implemented a machine learning model for image classification using Convolutional Neural Networks (CNNs).",
+        "Conducted data preprocessing to ensure optimal model performance and accuracy. ",
+        "Trained and optimized the model using advanced optimization techniques. ",
+      ],
+    },
+
+    {
       title: "INTERNSHIP ON AI ",
       company: "AICTE",
       duration: " Nov 24- Dec 2024",
@@ -38,8 +49,8 @@ const Resume = () => {
       <h2 className="text-3xl font-bold text-center mb-8">Resume</h2>
       <div className="text-center mb-12">
         <a
-          href="Sumit_Kadam_Resume.pdf"
-          download="Sumit_Kadam_Resume.pdf"
+          href="Sumit Kadam's Resume.pdf"
+          download="Sumit Kadam's Resume.pdf"
           className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-200"
         >
           Download Resume
