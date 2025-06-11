@@ -6,9 +6,10 @@ const Resume = () => {
       company: "MAKERS LAB-TECH MAHINDRA",
       duration: " March 25- July 2025",
       responsibilities: [
-        "Designed and implemented a machine learning model for image classification using Convolutional Neural Networks (CNNs).",
-        "Conducted data preprocessing to ensure optimal model performance and accuracy. ",
-        "Trained and optimized the model using advanced optimization techniques. ",
+        "Worked on AI-focused project assignments and proof-of-concepts under the guidance of industry mentors",
+        "Completed self-upskilling in machine learning concepts and tools as per project requirements. ",
+        "Participated in team meetings, contributing to planning and discussions around AI solution development.",
+        "Gained hands-on exposure by shadowing real-world AI projects and understanding enterprise workflows.",
       ],
     },
 
@@ -47,7 +48,7 @@ const Resume = () => {
   return (
     <section id="resume" className="min-h-screen bg-white p-8">
       <h2 className="text-3xl font-bold text-center mb-8">Resume</h2>
-      <div className="text-center mb-12">
+      {/* <div className="text-center mb-12">
         <a
           href="Sumit Kadam's Resume.pdf"
           download="Sumit Kadam's Resume.pdf"
@@ -55,7 +56,25 @@ const Resume = () => {
         >
           Download Resume
         </a>
-      </div>
+      </div> */}
+      <div className="text-center mb-12 flex justify-center gap-6 flex-wrap">
+  <a
+    href="Sumit Kadam's Resume.pdf"
+    download="Sumit Kadam's Resume.pdf"
+    className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-200"
+  >
+    Download Resume
+  </a>
+  <a
+    href="Sumit Kadam's Resume.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600 transition-all duration-200"
+  >
+    View Resume
+  </a>
+</div>
+
 
       {/* Experience Section */}
       <div className="max-w-4xl mx-auto">
